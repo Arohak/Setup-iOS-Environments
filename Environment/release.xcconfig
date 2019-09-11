@@ -1,0 +1,12 @@
+//
+//  release.xcconfig
+//  Environment
+//
+//  Created by Ara Hakobyan on 09/09/2019.
+//  Copyright © 2019 Ara Hakobyan. All rights reserved.
+//
+
+// Configuration settings file format documentation:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+rootUrl = http:/$()/production.com
