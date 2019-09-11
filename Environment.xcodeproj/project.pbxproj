@@ -11,10 +11,6 @@
 		5236E4CA2326071E00CCC48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236E4C92326071E00CCC48E /* Assets.xcassets */; };
 		5236E4DE2326187100CCC48E /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5236E4DC2326187100CCC48E /* Configuration.plist */; };
 		5236E4DF2326187100CCC48E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236E4DD2326187100CCC48E /* Configuration.swift */; };
-		5236E4E323279F8200CCC48E /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236E4DD2326187100CCC48E /* Configuration.swift */; };
-		5236E4E423279F8200CCC48E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236E4C22326071C00CCC48E /* AppDelegate.swift */; };
-		5236E4E723279F8200CCC48E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5236E4C92326071E00CCC48E /* Assets.xcassets */; };
-		5236E4E823279F8200CCC48E /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5236E4DC2326187100CCC48E /* Configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,19 +22,10 @@
 		5236E4D923260C3700CCC48E /* release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
 		5236E4DC2326187100CCC48E /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		5236E4DD2326187100CCC48E /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		5236E4ED23279F8200CCC48E /* Environment test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Environment test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5236E4EE23279F8300CCC48E /* Environment copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Environment copy-Info.plist"; path = "/Users/test/Desktop/Environment/Environment copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5236E4BC2326071C00CCC48E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5236E4E523279F8200CCC48E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,7 +40,6 @@
 			children = (
 				5236E4C12326071C00CCC48E /* Environment */,
 				5236E4C02326071C00CCC48E /* Products */,
-				5236E4EE23279F8300CCC48E /* Environment copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				5236E4BF2326071C00CCC48E /* Environment_debug.app */,
-				5236E4ED23279F8200CCC48E /* Environment test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,23 +101,6 @@
 			productReference = 5236E4BF2326071C00CCC48E /* Environment_debug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5236E4E123279F8200CCC48E /* Environment test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5236E4E923279F8200CCC48E /* Build configuration list for PBXNativeTarget "Environment test" */;
-			buildPhases = (
-				5236E4E223279F8200CCC48E /* Sources */,
-				5236E4E523279F8200CCC48E /* Frameworks */,
-				5236E4E623279F8200CCC48E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Environment test";
-			productName = Environment;
-			productReference = 5236E4ED23279F8200CCC48E /* Environment test.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -162,7 +130,6 @@
 			projectRoot = "";
 			targets = (
 				5236E4BE2326071C00CCC48E /* Environment */,
-				5236E4E123279F8200CCC48E /* Environment test */,
 			);
 		};
 /* End PBXProject section */
@@ -177,15 +144,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5236E4E623279F8200CCC48E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5236E4E723279F8200CCC48E /* Assets.xcassets in Resources */,
-				5236E4E823279F8200CCC48E /* Configuration.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,15 +153,6 @@
 			files = (
 				5236E4DF2326187100CCC48E /* Configuration.swift in Sources */,
 				5236E4C32326071C00CCC48E /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5236E4E223279F8200CCC48E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5236E4E323279F8200CCC48E /* Configuration.swift in Sources */,
-				5236E4E423279F8200CCC48E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,11 +283,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK8C7HUHMZ;
 				INFOPLIST_FILE = Environment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment_debug;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)_debug";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,11 +303,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK8C7HUHMZ;
 				INFOPLIST_FILE = Environment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.environment.prod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
 				SWIFT_VERSION = 5.0;
@@ -435,75 +386,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WK8C7HUHMZ;
 				INFOPLIST_FILE = Environment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment_dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.environment.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)_dev";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Development;
-		};
-		5236E4EA23279F8200CCC48E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WK8C7HUHMZ;
-				INFOPLIST_FILE = "Environment copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment_debug;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5236E4EB23279F8200CCC48E /* Development */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5236E4D823260C3700CCC48E /* development.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_dev;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WK8C7HUHMZ;
-				INFOPLIST_FILE = "Environment copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment_dev;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Development;
-		};
-		5236E4EC23279F8200CCC48E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5236E4D923260C3700CCC48E /* release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WK8C7HUHMZ;
-				INFOPLIST_FILE = "Environment copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arohak.Environment;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -524,16 +418,6 @@
 				5236E4D22326071E00CCC48E /* Debug */,
 				5236E4DB2326153C00CCC48E /* Development */,
 				5236E4D32326071E00CCC48E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5236E4E923279F8200CCC48E /* Build configuration list for PBXNativeTarget "Environment test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5236E4EA23279F8200CCC48E /* Debug */,
-				5236E4EB23279F8200CCC48E /* Development */,
-				5236E4EC23279F8200CCC48E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

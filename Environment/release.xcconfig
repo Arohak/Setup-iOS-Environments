@@ -9,4 +9,4 @@
 // Configuration settings file format documentation:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-rootUrl = http:/$()/production.com
+Environment=Production
